@@ -13,4 +13,4 @@ with open('data/employee.csv', newline='') as file:
         if float(salary) < 0:
             raise ValueError('salary is negative')
 
-    print('load into target system')
+    print('validated')
